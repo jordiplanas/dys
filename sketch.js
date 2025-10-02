@@ -7,7 +7,7 @@ let but;
 var f;
 function mousePressed() {
   flying = true;
-  setTimeout(stop, 5000);
+  setTimeout(stop, 6000);
 }
 
 function stop(){
