@@ -808,7 +808,7 @@
      ===================== */
 
 	body.home {
-		background-image: url("assets/img/bg-dyson.jpg");
+		background-image: url("../img/bg-dyson.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
