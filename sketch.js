@@ -7,12 +7,13 @@ let but;
 var f;
 function mousePressed() {
   flying = true;
-  setTimeout(stop, 6000);
+  setTimeout(stop, 6500);
 }
 
 function stop(){
   flying = false;
   bdisplay= true;
+  leafImg.splice(0,90);
 }
 
 function preload() {
@@ -30,7 +31,7 @@ function setup() {
   canvas.style("z-index", "+1");
   imageMode(CENTER);
 
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 120; i++) {
     leaves.push(
       new Leaf(random(width), random(height), leafImg[int(random(7))])
     );
