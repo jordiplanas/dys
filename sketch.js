@@ -90,7 +90,7 @@ class Leaf {
 }
 
 function drawB() {
-  fill(0, 100);
+  fill(0, 150);
   rectMode(CENTER);
   stroke("#white");
   push();
